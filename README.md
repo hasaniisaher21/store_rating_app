@@ -59,7 +59,7 @@ Follow these steps to get the project up and running on your local machine.
 ### 1. Clone the Repository
 
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/hasaniisaher21/store_rating_app.git
 cd store-rating-app
 ```
 
@@ -80,14 +80,14 @@ cd store-rating-app
 
     ```env
     # PostgreSQL Database Configuration
-    DB_USER=your_postgres_user
+    DB_USER=postgres
     DB_HOST=localhost
     DB_DATABASE=store_rating_app_db
-    DB_PASSWORD="your_postgres_password"
+    DB_PASSWORD="iShasan#21"
     DB_PORT=5432
 
     # JWT Secret Key
-    JWT_SECRET=replace_this_with_a_long_random_string
+    JWT_SECRET=storeratingappassignment
     ```
 
 4.  **Set up the PostgreSQL Database:**
@@ -128,7 +128,7 @@ cd store-rating-app
     ```bash
     npm start
     ```
-    The API will be running on `http://localhost:5001`.
+    The API will be running on `http://localhost:5000`.
 
 ### 3. Frontend Setup
 
